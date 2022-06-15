@@ -1,0 +1,145 @@
+.headerdashboard {
+  display: flex;
+  .Notify {
+    position: absolute;
+    width: 360px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    background: #ff9138;
+  }
+  .Notify-1 {
+    position: absolute;
+    width: 101px;
+    height: 30px;
+    left: 24px;
+    top: 9px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+  }
+  .Notify-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 360px;
+    height: 400px;
+    left: 0px;
+    top: 48px;
+    background: #ffffff;
+  }
+  .Line {
+    margin-top: 20%;
+    margin-left: 5%;
+  }
+  .Line-1 {
+    margin-left: 5%;
+  }
+  .user-name-1 {
+    width: 268px;
+    height: 24px;
+    margin-left: 24px;
+    top: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #bf5805;
+  }
+  .time-number-1 {
+    width: 313px;
+    height: 24px;
+    margin-left: 24px;
+    top: 44px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #535261;
+  }
+  .time-number {
+    position: absolute;
+    width: 313px;
+    height: 24px;
+    left: 24px;
+    top: 44px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #535261;
+  }
+  .user-name {
+    position: absolute;
+    width: 268px;
+    height: 24px;
+    left: 24px;
+    top: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #bf5805;
+  }
+  justify-content: space-between;
+  &-main {
+    h2 {
+      font-size: 2rem;
+      line-height: 3rem;
+      font-weight: 700;
+      color: $orange-400;
+    }
+  }
+  &-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .imgnotify {
+      width: 100%;
+      height: 100%;
+      max-width: 3.2rem;
+      max-height: 3.2rem;
+      object-fit: cover;
+      margin-right: 500px;
+    }
+    .imgnotify-1 {
+      width: 100%;
+      height: 100%;
+      max-width: 3.2rem;
+      max-height: 3.2rem;
+      object-fit: cover;
+      margin-right: 400px;
+    }
+    &-box {
+      display: flex;
+      margin-left: -500px;
+      .imguser {
+        width: 100%;
+        height: 100%;
+        max-width: 4rem;
+        max-height: 4rem;
+        object-fit: cover;
+        margin: 0 0.8rem 0 2.4rem;
+      }
+      .infomation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .sub-label {
+          font-size: 1.2rem;
+          line-height: 1.8rem;
+          font-weight: 400;
+          color: $gray-300;
+          margin-left: -1%;
+        }
+        .label {
+          font-size: 1.6rem;
+          color: $gray-400;
+          line-height: 2.4rem;
+          font-weight: 700;
+          text-transform: capitalize;
+          margin-left: -5%;
+        }
+      }
+    }
+  }
+}
