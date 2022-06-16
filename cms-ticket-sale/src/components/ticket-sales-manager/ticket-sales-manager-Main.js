@@ -69,404 +69,376 @@ const DeviceMain = () => {
                     <td>1</td>
                   </tr>
                   <tr className="col2">
-                    <td>Kiosk</td>
+                    <td>ALT20210501</td>
                   </tr>
                   <tr className="col3">
-                    <td>192.168.1.10</td>
+                    <td>123456789034</td>
                   </tr>
                   <tr className="col4">
                     <td>
-                      <li className="red">
-                        <span>Ngưng hoạt động</span>
-                      </li>
+           
+                        <span>Hội chợ triển lãm tiêu dùng 2021</span>
+                    
                     </td>
                   </tr>
                   <tr className="col5">
                     <td>
                       <li className="red">
-                        <span>Mất kết nối</span>
+                        <span>Đã sử dụng</span>
                       </li>
                     </td>
                   </tr>
                   <tr className="col6">
                     <td>
-                      Khám tim mạch, khám mắt...
-                      <a href="">Xem thêm</a>
+                      14/04/2021
+                    
                     </td>
                   </tr>
                   <tr className="col7">
                     <td>
-                      <a href="" onClick={(e) => handleClickDetail(e)}>
-                        Chi tiết
-                      </a>
+                    14/04/2021
                     </td>
                   </tr>
                   <tr className="col8">
                     <td>
-                      <NavLink to="/device/Update" exact="true">
-                        Cập nhật
-                      </NavLink>
+                     Cổng 1
                     </td>
                   </tr>
                 </tbody>
                 <tbody className="active">
                   <tr className="col1">
-                    <td>KIO_01</td>
+                    <td>2</td>
                   </tr>
                   <tr className="col2">
-                    <td>Kiosk</td>
+                    <td>ALT20210501</td>
                   </tr>
                   <tr className="col3">
-                    <td>192.168.1.10</td>
+                    <td>123456789034</td>
                   </tr>
                   <tr className="col4">
                     <td>
-                      <li className="green">
-                        <span>Hoạt động</span>
-                      </li>
+       
+                        <span>Hội chợ triển lãm tiêu dùng 2021</span>
+       
                     </td>
                   </tr>
                   <tr className="col5">
                     <td>
                       <li className="green">
-                        <span>Kết nối</span>
+                        <span>Đã sử dụng</span>
                       </li>
                     </td>
                   </tr>
                   <tr className="col6">
                     <td>
-                      Khám tim mạch, khám mắt...
-                      <a href="">Xem thêm</a>
+                      14/04/2021
+            
+            
                     </td>
                   </tr>
                   <tr className="col7">
                     <td>
-                      <a href="" onClick={(e) => handleClickDetail(e)}>
-                        Chi tiết
-                      </a>
+                    14/04/2021
                     </td>
                   </tr>
                   <tr className="col8">
                     <td>
-                      <NavLink to="/device/Update" exact="true">
-                        Cập nhật
-                      </NavLink>
+                     Cổng 1
                     </td>
                   </tr>
                 </tbody>
                 <tbody>
                   <tr className="col1">
-                    <td>KIO_01</td>
+                    <td>3</td>
                   </tr>
                   <tr className="col2">
-                    <td>Kiosk</td>
+                    <td>ALT20210501</td>
                   </tr>
                   <tr className="col3">
-                    <td>192.168.1.10</td>
+                    <td>123456789034</td>
                   </tr>
                   <tr className="col4">
                     <td>
-                      <li className="red">
-                        <span>Ngưng hoạt động</span>
-                      </li>
+       
+                        <span>Hội chợ triển lãm tiêu dùng 2021</span>
+           
                     </td>
                   </tr>
                   <tr className="col5">
                     <td>
                       <li className="red">
-                        <span>Mất kết nối</span>
+                        <span>Đã sử dụng</span>
                       </li>
                     </td>
                   </tr>
                   <tr className="col6">
                     <td>
-                      Khám tim mạch, khám mắt...
-                      <a href="">Xem thêm</a>
+                      14/04/2021
+             
+             
                     </td>
                   </tr>
                   <tr className="col7">
                     <td>
-                      <a href="" onClick={(e) => handleClickDetail(e)}>
-                        Chi tiết
-                      </a>
+                    14/04/2021
                     </td>
                   </tr>
                   <tr className="col8">
                     <td>
-                      <NavLink to="/device/Update" exact="true">
-                        Cập nhật
-                      </NavLink>
+                     Cổng 1
                     </td>
                   </tr>
                 </tbody>
                 <tbody className="active">
                   <tr className="col1">
-                    <td>KIO_01</td>
+                    <td>4</td>
                   </tr>
                   <tr className="col2">
-                    <td>Kiosk</td>
+                    <td>ALT20210501</td>
                   </tr>
                   <tr className="col3">
-                    <td>192.168.1.10</td>
+                    <td>123456789034</td>
                   </tr>
                   <tr className="col4">
                     <td>
-                      <li className="green">
-                        <span>Hoạt động</span>
-                      </li>
+        
+                        <span>Hội chợ triển lãm tiêu dùng 2021</span>
+           
                     </td>
                   </tr>
                   <tr className="col5">
                     <td>
                       <li className="green">
-                        <span>Kết nối</span>
+                        <span>Đã sử dụng</span>
                       </li>
                     </td>
                   </tr>
                   <tr className="col6">
                     <td>
-                      Khám tim mạch, khám mắt...
-                      <a href="">Xem thêm</a>
+                      14/04/2021
+           
+           
                     </td>
                   </tr>
                   <tr className="col7">
                     <td>
-                      <a href="" onClick={(e) => handleClickDetail(e)}>
-                        Chi tiết
-                      </a>
+                    14/04/2021
                     </td>
                   </tr>
                   <tr className="col8">
                     <td>
-                      <NavLink to="/device/Update" exact="true">
-                        Cập nhật
-                      </NavLink>
+                     Cổng 1
                     </td>
                   </tr>
                 </tbody>
                 <tbody>
                   <tr className="col1">
-                    <td>KIO_01</td>
+                    <td>5</td>
                   </tr>
                   <tr className="col2">
-                    <td>Kiosk</td>
+                    <td>ALT20210501</td>
                   </tr>
                   <tr className="col3">
-                    <td>192.168.1.10</td>
+                    <td>123456789034</td>
                   </tr>
                   <tr className="col4">
                     <td>
-                      <li className="red">
-                        <span>Ngưng hoạt động</span>
-                      </li>
+
+                        <span>Hội chợ triển lãm tiêu dùng 2021</span>
+          
                     </td>
                   </tr>
                   <tr className="col5">
                     <td>
                       <li className="red">
-                        <span>Mất kết nối</span>
+                        <span>Đã sử dụng</span>
                       </li>
                     </td>
                   </tr>
                   <tr className="col6">
                     <td>
-                      Khám tim mạch, khám mắt...
-                      <a href="">Xem thêm</a>
+                      14/04/2021
+                
+                
                     </td>
                   </tr>
                   <tr className="col7">
                     <td>
-                      <a href="" onClick={(e) => handleClickDetail(e)}>
-                        Chi tiết
-                      </a>
+                    14/04/2021
                     </td>
                   </tr>
                   <tr className="col8">
                     <td>
-                      <NavLink to="/device/Update" exact="true">
-                        Cập nhật
-                      </NavLink>
+                     Cổng 1
                     </td>
                   </tr>
                 </tbody>
                 <tbody className="active">
                   <tr className="col1">
-                    <td>KIO_01</td>
+                    <td>6</td>
                   </tr>
                   <tr className="col2">
-                    <td>Kiosk</td>
+                    <td>ALT20210501</td>
                   </tr>
                   <tr className="col3">
-                    <td>192.168.1.10</td>
+                    <td>123456789034</td>
                   </tr>
                   <tr className="col4">
                     <td>
-                      <li className="green">
-                        <span>Hoạt động</span>
-                      </li>
+              
+                        <span>Hội chợ triển lãm tiêu dùng 2021</span>
+                
                     </td>
                   </tr>
                   <tr className="col5">
                     <td>
                       <li className="green">
-                        <span>Kết nối</span>
+                        <span>Đã sử dụng</span>
                       </li>
                     </td>
                   </tr>
                   <tr className="col6">
                     <td>
-                      Khám tim mạch, khám mắt...
-                      <a href="">Xem thêm</a>
+                      14/04/2021
+    
+    
                     </td>
                   </tr>
                   <tr className="col7">
                     <td>
-                      <a href="" onClick={(e) => handleClickDetail(e)}>
-                        Chi tiết
-                      </a>
+                    14/04/2021
                     </td>
                   </tr>
                   <tr className="col8">
                     <td>
-                      <NavLink to="/device/Update" exact="true">
-                        Cập nhật
-                      </NavLink>
+                     Cổng 1
                     </td>
                   </tr>
                 </tbody>
                 <tbody>
                   <tr className="col1">
-                    <td>KIO_01</td>
+                    <td>7</td>
                   </tr>
                   <tr className="col2">
-                    <td>Kiosk</td>
+                    <td>ALT20210501</td>
                   </tr>
                   <tr className="col3">
-                    <td>192.168.1.10</td>
+                    <td>123456789034</td>
                   </tr>
                   <tr className="col4">
                     <td>
-                      <li className="red">
-                        <span>Ngưng hoạt động</span>
-                      </li>
+                
+                        <span>Hội chợ triển lãm tiêu dùng 2021</span>
+                  
                     </td>
                   </tr>
                   <tr className="col5">
-                    <td>
+                    <td >
                       <li className="red">
-                        <span>Mất kết nối</span>
+                        <span>Đã sử dụng</span>
                       </li>
                     </td>
                   </tr>
                   <tr className="col6">
                     <td>
-                      Khám tim mạch, khám mắt...
-                      <a href="">Xem thêm</a>
+                      14/04/2021
+          
+          
                     </td>
                   </tr>
                   <tr className="col7">
                     <td>
-                      <a href="" onClick={(e) => handleClickDetail(e)}>
-                        Chi tiết
-                      </a>
+                    14/04/2021
                     </td>
                   </tr>
                   <tr className="col8">
                     <td>
-                      {" "}
-                      <NavLink to="/device/Update" exact="true">
-                        Cập nhật
-                      </NavLink>
+                     
+                     Cổng 1
                     </td>
                   </tr>
                 </tbody>
                 <tbody className="active">
                   <tr className="col1">
-                    <td>KIO_01</td>
+                    <td>8</td>
                   </tr>
                   <tr className="col2">
-                    <td>Kiosk</td>
+                    <td>ALT20210501</td>
                   </tr>
                   <tr className="col3">
-                    <td>192.168.1.10</td>
+                    <td>123456789034</td>
                   </tr>
                   <tr className="col4">
                     <td>
-                      <li className="green">
-                        <span>Hoạt động</span>
-                      </li>
+     
+                        <span>Hội chợ triển lãm tiêu dùng 2021</span>
+            
                     </td>
                   </tr>
                   <tr className="col5">
                     <td>
                       <li className="green">
-                        <span>Kết nối</span>
+                        <span>Đã sử dụng</span>
                       </li>
                     </td>
                   </tr>
                   <tr className="col6">
                     <td>
-                      Khám tim mạch, khám mắt...
-                      <a href="">Xem thêm</a>
+                      14/04/2021
+         
+         
                     </td>
                   </tr>
                   <tr className="col7">
                     <td>
-                      <a href="" onClick={(e) => handleClickDetail(e)}>
-                        Chi tiết
-                      </a>
+                    14/04/2021
                     </td>
                   </tr>
                   <tr className="col8">
                     <td>
-                      <NavLink to="/device/Update" exact="true">
-                        Cập nhật
-                      </NavLink>
+                     Cổng 1
                     </td>
                   </tr>
                 </tbody>
                 <tbody>
                   <tr className="col1">
-                    <td>KIO_01</td>
+                    <td>9</td>
                   </tr>
                   <tr className="col2">
-                    <td>Kiosk</td>
+                    <td>ALT20210501</td>
                   </tr>
                   <tr className="col3">
-                    <td>192.168.1.10</td>
+                    <td>123456789034</td>
                   </tr>
                   <tr className="col4">
                     <td>
-                      <li className="red">
-                        <span>Ngưng hoạt động</span>
-                      </li>
+           
+                        <span>Hội chợ triển lãm tiêu dùng 2021</span>
+                     
                     </td>
                   </tr>
                   <tr className="col5">
                     <td>
                       <li className="red">
-                        <span>Mất kết nối</span>
+                        <span>Đã sử dụng</span>
                       </li>
                     </td>
                   </tr>
                   <tr className="col6">
                     <td>
-                      Khám tim mạch, khám mắt...
-                      <a href="">Xem thêm</a>
+                      14/04/2021
+               
+               
                     </td>
                   </tr>
                   <tr className="col7">
                     <td>
-                      <a href="" onClick={(e) => handleClickDetail(e)}>
-                        Chi tiết
-                      </a>
+                    14/04/2021
                     </td>
                   </tr>
                   <tr className="col8">
                     <td>
-                      <NavLink to="/device/Update" exact="true">
-                        Cập nhật
-                      </NavLink>
+                     Cổng 1
                     </td>
                   </tr>
                 </tbody>

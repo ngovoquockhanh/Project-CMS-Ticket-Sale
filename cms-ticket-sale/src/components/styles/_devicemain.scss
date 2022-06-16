@@ -1,3 +1,4 @@
+
 .devicemain {
   .devicemain-container-box {
     margin-right: -1%;
@@ -97,6 +98,7 @@
         color: $gray-400;
         cursor: pointer;
       }
+     
       .search {
         position: relative;
         input {
@@ -136,7 +138,7 @@
         align-items: center;
 
         &.active {
-          background: $orange-50;
+          background: #F7F8FB;
         }
         tr {
           width: 100%;
@@ -148,16 +150,15 @@
           }
           &.col1 {
             width: 23rem;
-
           }
           &.col2 {
             width: 23rem;
           }
           &.col3 {
-            width: 23rem;
+            width: 30rem;
           }
           &.col4 {
-            width: 23rem;
+            width: 50rem;
           }
           &.col5 {
             width: 30rem;
@@ -165,20 +166,19 @@
           &.col6 {
             width: 23rem;
           }
-          &.col7{
+          &.col7 {
             width: 23rem;
           }
           &.col8 {
-
             width: 23rem;
           }
         }
       }
-      .name-col{
-        color: #1E0D03;
+      .name-col {
+        color: #1e0d03;
       }
       .tbl-header {
-        background-color: #F1F4F8;
+        background-color: #f1f4f8;
         border-top-left-radius: 1.2rem;
         border-top-right-radius: 1.2rem;
         tr {
@@ -196,8 +196,12 @@
             border-right: 0.1rem solid $orange-50;
             td {
               .red {
-                color: $red-dark;
+                color: #919DBA;;
                 font-size: 2rem;
+                box-sizing: border-box;
+                background: #eaf1f8;          
+                border: 1px solid #919dba;
+                border-radius: 4px;
                 span {
                   font-size: 1.4rem;
                   color: $gray-400;
@@ -206,8 +210,12 @@
                 }
               }
               .green {
-                color: $green-light;
+                color: #919DBA;;
                 font-size: 2rem;
+                box-sizing: border-box;
+                background: #eaf1f8;          
+                border: 1px solid #919dba;
+                border-radius: 4px;
                 span {
                   font-size: 1.4rem;
                   color: $gray-400;
@@ -281,6 +289,7 @@
     &-pagination {
       margin-top: 2.4rem;
       float: right;
+      margin-right: 35%;
       .ant-pagination-prev .ant-pagination-item-link,
       .ant-pagination-next .ant-pagination-item-link {
         display: block;

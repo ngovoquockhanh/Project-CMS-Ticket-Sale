@@ -10,7 +10,7 @@ function App() {
       <div className="wrapper">
         <Routes>
           <Route path="/menu/*" element={<Menu />} />
-          <Route path="/device" element={<DevicePage />} />
+          <Route path="/ticket-sales-manager" element={<DevicePage />} />
         </Routes>
       </div>
     </div>

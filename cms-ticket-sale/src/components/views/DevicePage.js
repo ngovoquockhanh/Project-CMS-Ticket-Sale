@@ -1,6 +1,6 @@
 import Menubar from "../../components/Menu/Menu";
-import DeviceMain from "../device/DeviceMain";
-import HeaderDevice from "../device/HeaderDevice";
+import DeviceMain from "../ticket-sales-manager/ticket-sales-manager-Main";
+
 
 const DevicePage = () => {
   return (
@@ -8,7 +8,7 @@ const DevicePage = () => {
       <div className="flex-row">
         <Menubar />
         <main className="main-wrap">
-          <HeaderDevice />
+   
           <DeviceMain />
         </main>
       </div>
