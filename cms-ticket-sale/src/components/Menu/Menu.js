@@ -36,7 +36,7 @@ const Menubar = () => {
             className={({ isActive }) =>
               isActive ? "menubar-main-box active" : "menubar-main-box"
             }
-            to="/dashboard"
+            to="/"
             exact="true"
           >
             <img src={home} alt="" className="icondashboard" />
@@ -47,7 +47,7 @@ const Menubar = () => {
             className={({ isActive }) =>
               isActive ? "menubar-main-box active" : "menubar-main-box"
             }
-            to="/ticket-sales-manager"
+            to="/manager-used"
             exact="true"
           >
             <img src={ticketmanager} alt="" className="icondevice" />
@@ -57,7 +57,7 @@ const Menubar = () => {
             className={({ isActive }) =>
               isActive ? "menubar-main-box active" : "menubar-main-box"
             }
-            to="/service"
+            to="/"
             exact="true"
           >
             <img src={changeticket} alt="" className="iconservice" />

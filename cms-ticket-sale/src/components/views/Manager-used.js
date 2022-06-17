@@ -1,5 +1,5 @@
-import Menubar from "../../components/Menu/Menu";
-import DeviceMain from "../ticket-sales-manager/ticket-sales-manager-Main";
+import Menubar from "../Menu/Menu";
+import DeviceMain from "../Manager-ticker/Manager-used";
 
 
 const DevicePage = () => {

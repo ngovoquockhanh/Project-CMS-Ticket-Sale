@@ -1,6 +1,6 @@
 import "./components/styles/app.scss";
 import Menu from "./components/Menu/Menu";
-import DevicePage from "./components/views/DevicePage";
+import ManagerUsed from "./components/views/Manager-used";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <div className="wrapper">
         <Routes>
           <Route path="/menu/*" element={<Menu />} />
-          <Route path="/ticket-sales-manager" element={<DevicePage />} />
+          <Route path="/manager-used" element={<ManagerUsed />} />
         </Routes>
       </div>
     </div>
