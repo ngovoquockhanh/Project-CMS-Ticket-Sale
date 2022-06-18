@@ -1,5 +1,5 @@
 import Menubar from "../Menu/Menu";
-import DeviceMain from "../Manager-ticker/Manager-used";
+import ManagerExpires from "../Manager-ticker/Manager-Expires";
 
 
 const DevicePage = () => {
@@ -8,7 +8,7 @@ const DevicePage = () => {
       <div className="flex-row">
         <Menubar />
         <main className="main-wrap"> 
-          <DeviceMain />
+          <ManagerExpires />
         </main>
       </div>
     </>

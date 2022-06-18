@@ -1,18 +1,18 @@
 import Menubar from "../Menu/Menu";
-import DeviceMain from "../Manager-ticker/Manager-used";
+import Homeweek from "../Home-page/Home-week";
 
 
-const DevicePage = () => {
+const HomePage  = () => {
   return (
     <>
       <div className="flex-row">
         <Menubar />
         <main className="main-wrap"> 
-          <DeviceMain />
+          <Homeweek />
         </main>
       </div>
     </>
   );
 };
 
-export default DevicePage;
+export default HomePage;

@@ -1,15 +1,14 @@
-import Menubar from "../../components/Menu/Menu";
-import Header from "../User/Header";
-import Main from "../User/Main";
+import Menubar from "../Menu/Menu";
+import Homepage from "../Home-page/Home-page";
 
-const HomePage = () => {
+
+const HomePage  = () => {
   return (
     <>
       <div className="flex-row">
         <Menubar />
-        <main className="main-wrap">
-          <Header />
-          <Main />
+        <main className="main-wrap"> 
+          <Homepage />
         </main>
       </div>
     </>

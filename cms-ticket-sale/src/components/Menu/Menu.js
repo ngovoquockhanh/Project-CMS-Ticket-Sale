@@ -36,7 +36,7 @@ const Menubar = () => {
             className={({ isActive }) =>
               isActive ? "menubar-main-box active" : "menubar-main-box"
             }
-            to="/"
+            to="/home"
             exact="true"
           >
             <img src={home} alt="" className="icondashboard" />
