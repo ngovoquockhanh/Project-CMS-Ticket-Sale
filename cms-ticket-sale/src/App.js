@@ -5,6 +5,7 @@ import Managernotused from "./components/views/Manager-not-used";
 import ManagerExpires from "./components/views/Manager-Expires";
 import HomePage from "./components/views/HomePage";
 import Homeweek from "./components/views/Home-week";
+import NoArguments from "./components/views/No-Arguments";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/manager-used" element={<ManagerUsed />} />
           <Route path="/manager-not-used" element={<Managernotused />} />
           <Route path="/manager-expires" element={<ManagerExpires />} />
+          <Route path="/no-arguments" element={<NoArguments />} />
         </Routes>
       </div>
     </div>

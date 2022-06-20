@@ -1,0 +1,81 @@
+.NoArgumentsMain {
+  .Checking-tickets-right {
+    position: absolute;
+    width: 813px;
+    height: 963px;
+    left: 217px;
+    top: 85px;
+    background: #ffffff;
+    border-radius: 24px;
+    .For-control {
+      position: absolute;
+      width: 209px;
+      height: 54px;
+      left: 22px;
+      top: 12px;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 54px;
+      display: flex;
+      align-items: center;
+      color: #1e0d03;
+    }
+    .search-control {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 10px 16px;
+      gap: 16px;
+      position: absolute;
+      width: 348px;
+      height: 48px;
+      left: 16px;
+      top: 82px;
+      border-radius: 8px;
+      span {
+        position: absolute;
+        top: 1.2rem;
+        right: 2.2rem;
+        font-size: 2rem;
+        color: #ff7506;
+        cursor: pointer;
+      }
+    }
+    .name-search{
+      background: #f7f7f8;
+    }
+    .tbl-control{
+      background-color: #f1f4f8;
+      border-top-left-radius: 1.2rem;
+      border-top-right-radius: 1.2rem;
+      width: 70%;
+      margin-left: 1%;
+      tr {
+        border-right: 0.1rem solid $orange-50;
+      }
+    }
+    .tbl-content-for{
+      height: 49rem;
+      overflow-x: auto;
+      margin-top: 0;
+      width: 70%;
+      background-color: #fff;
+      margin-left: 1%;
+    }
+    .Checking-container{
+      position: relative;
+        margin-top: 18%;
+    }
+  }
+  .Checking-tickets-left {
+    position: absolute;
+    width: 293.2px;
+    height: 963px;
+    left: 1054px;
+    top: 85px;
+    background: #ffffff;
+    border-radius: 24px;
+  }
+}
