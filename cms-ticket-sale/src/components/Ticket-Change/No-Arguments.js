@@ -27,8 +27,6 @@ const NoArgumentsMain = () => {
                 </span>
               </div>
               <div className="Checking-container">
-                
-
               <div className="devicemain-container-table">
             <div className="tbl-control">
               <table cellPadding="0" cellSpacing="0" border="0">
