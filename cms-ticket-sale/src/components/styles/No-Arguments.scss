@@ -43,20 +43,19 @@
         cursor: pointer;
       }
     }
-    .name-search{
+    .name-search {
       background: #f7f7f8;
     }
-    .tbl-control{
+    .tbl-control {
       background-color: #f1f4f8;
-      border-top-left-radius: 1.2rem;
-      border-top-right-radius: 1.2rem;
-      width: 70%;
+
+      width: 80%;
       margin-left: 1%;
       tr {
         border-right: 0.1rem solid $orange-50;
       }
     }
-    .tbl-content-for{
+    .tbl-content-for {
       height: 49rem;
       overflow-x: auto;
       margin-top: 0;
@@ -64,10 +63,75 @@
       background-color: #fff;
       margin-left: 1%;
     }
-    .Checking-container{
+    .Checking-container {
       position: relative;
-        margin-top: 18%;
+      margin-top: 18%;
     }
+  }
+  .Checking-col {
+    color: #1e0d03;
+  }
+  .col2-2 {
+    width: 39rem;
+  }
+  .col5-5 {
+    width: 33rem;
+    margin-left: 9%;
+  }
+  .col4-4 {
+    width: 50rem;
+  }
+  .col3-3 {
+    width: 34rem;
+    margin-left: 7%;
+  }
+  .col2-2-2 {
+    width: 30rem;
+  }
+  .col4-4-4 {
+    width: 30rem;
+    margin-left: 13%;
+  }
+  .col6-6 {
+    width: 32rem;
+  }
+  .col3-3-3 {
+    width: 27rem;
+    margin-left: 9%;
+  }
+  .col7-7 {
+    width: 50rem;
+    margin-left: 8%;
+  }
+  .name-col6 {
+    color: #a5a8b1;
+  }
+  .btn-2 {
+    margin-left: 174%;
+    position: absolute;
+    background: #ff993c;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 19px;
+    gap: 10px;
+  }
+  .Counterpoint {
+    width: 91px;
+    height: 26px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
   .Checking-tickets-left {
     position: absolute;
@@ -77,5 +141,222 @@
     top: 85px;
     background: #ffffff;
     border-radius: 24px;
+    .ticket-filter {
+      position: absolute;
+      width: 81px;
+      height: 30px;
+      left: -28px;
+      top: 13px;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 27px;
+      line-height: 30px;
+      display: flex;
+      align-items: center;
+      color: #1e0d03;
+    }
+    .status-filter {
+      position: absolute;
+      width: 156px;
+      height: 26px;
+      left: 24px;
+      top: 84px;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 26px;
+      display: flex;
+      align-items: center;
+      color: #1e0d03;
+      opacity: 0.8;
+    }
+    .name-status-filter {
+      width: 24px;
+      height: 24px;
+      background: #ffffff;
+      border-radius: 20px;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin-top: 29%;
+      margin-left: 58%;
+    }
+    .name-status-filter-1 {
+      width: 24px;
+      height: 24px;
+      background: #ffffff;
+      border-radius: 20px;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin-top: 7%;
+      margin-left: 58%;
+    }
+    .status-all {
+      width: 49px;
+      height: 20px;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      display: flex;
+      align-items: center;
+      color: #1e0d03;
+      opacity: 0.7;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      margin-left: 70%;
+      margin-top: -8%;
+    }
+    .status-all-1 {
+      width: 90px;
+      height: 20px;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 20px;
+      display: flex;
+      align-items: center;
+      color: #1e0d03;
+      opacity: 0.7;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      margin-left: 70%;
+      margin-top: -8%;
+    }
+    .name-ticket-type {
+      position: absolute;
+      width: 58px;
+      height: 26px;
+      left: 24px;
+      top: 205px;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 26px;
+      display: flex;
+      align-items: center;
+      color: #1e0d03;
+      opacity: 0.8;
+    }
+    .name-gate-ticket {
+      width: 66px;
+      height: 20px;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      display: flex;
+      align-items: center;
+      color: #1e0d03;
+      opacity: 0.7;
+      flex: none;
+      order: 0;
+      margin-left: 58%;
+      margin-top: 5%;
+      flex-grow: 0;
+    }
+    .name-since {
+      position: absolute;
+      width: 66px;
+      height: 26px;
+      left: 24px;
+      top: 255px;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 26px;
+      display: flex;
+      align-items: center;
+      color: #1e0d03;
+      opacity: 0.8;
+    }
+    .date-since {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 16px;
+      gap: 28px;
+      position: absolute;
+      width: 192px;
+      height: 40px;
+      left: 128px;
+      top: 250px;
+      /* background: #E0E0E0; */
+      border-radius: 8px;
+    }
+    .until-the-day {
+      position: absolute;
+      width: 80px;
+      height: 26px;
+      left: 24px;
+      top: 321px;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 26px;
+      display: flex;
+      align-items: center;
+      color: #1e0d03;
+      opacity: 0.8;
+    }
+    .date-until{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 16px;
+      gap: 27px;
+      position: absolute;
+      width: 191px;
+      height: 40px;
+      left: 127px;
+      top: 314px;
+      /* background: #F7F8FB; */
+      border-radius: 8px;
+    }
+    .btn-3{
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 11px 24px;
+      gap: 10px;
+      position: absolute;
+      width: 160px;
+      height: 48px;
+      left: 85px;
+      top: 403px;
+      border: 1px solid #FF993C;
+      background: #ffffff;
+      border-radius: 8px
+    }
+    .filter-arguments{
+      width: 34px;
+      height: 26px;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 26px;
+      display: flex;
+      align-items: center;
+      color: #FF993C;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
   }
 }
