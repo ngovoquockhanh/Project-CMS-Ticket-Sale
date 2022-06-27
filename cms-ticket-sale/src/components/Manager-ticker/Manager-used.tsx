@@ -14,7 +14,7 @@ const DeviceMain = () => {
 
   const dateFormatList = ["DD/MM/YYYY", "DD/MM/YY"];
 
-  const customFormat = (value) => `custom format: ${value.format(dateFormat)}`;
+  
   return (
     <>
       <section className="devicemain">
@@ -68,7 +68,7 @@ const DeviceMain = () => {
                     <span className="all-2">Chưa sử dụng</span>
                     <input type="radio" id="html" className="name-all-3" name="fav_language"  value="HTML"></input>
                     <span className="all-3">Hết hạn</span>
-               <label for="html">HTML</label><br/>
+       
                 </div>
               <div>
               <h3 className="check">Cổng Check - in</h3>
@@ -97,7 +97,7 @@ const DeviceMain = () => {
 
           <div className="devicemain-container-table">
             <div className="tbl-header">
-              <table cellPadding="0" cellSpacing="0" border="0">
+              <table >
                 <thead>
                   <tr className="col1">
                     <th className="name-col">STT</th>
@@ -127,7 +127,7 @@ const DeviceMain = () => {
               </table>
             </div>
             <div className="tbl-content">
-              <table cellPadding="0" cellSpacing="0" border="0">
+              <table >
                 <tbody>
                   <tr className="col1">
                     <td>1</td>

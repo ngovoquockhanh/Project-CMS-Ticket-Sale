@@ -24,16 +24,16 @@
     }
     .search-control {
       display: flex;
-      flex-direction: row;
-      align-items: center;
-      padding: 10px 16px;
-      gap: 16px;
-      position: absolute;
-      width: 348px;
-      height: 48px;
-      left: 16px;
-      top: 82px;
-      border-radius: 8px;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 16px;
+    position: absolute;
+    width: 368px;
+    height: 48px;
+    left: 32px;
+    top: 73px;
+    border-radius: 8px;
       span {
         position: absolute;
         top: 1.2rem;
@@ -45,6 +45,7 @@
     }
     .name-search {
       background: #f7f7f8;
+      width: 120%;
     }
     .tbl-control {
       background-color: #f1f4f8;
@@ -107,7 +108,7 @@
     color: #a5a8b1;
   }
   .btn-2 {
-    margin-left: 174%;
+    margin-left: 168%;
     position: absolute;
     background: #ff993c;
     border-radius: 8px;

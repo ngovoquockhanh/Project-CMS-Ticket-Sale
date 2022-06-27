@@ -1,5 +1,5 @@
-import Menubar from "../Menu/Menu";
-import DeviceMain from "../Manager-ticker/Manager-used";
+import Menubar from "../Menu/menubar";
+import NoArguments from "../Ticket-Change/No-Arguments";
 
 
 const DevicePage = () => {
@@ -8,7 +8,7 @@ const DevicePage = () => {
       <div className="flex-row">
         <Menubar />
         <main className="main-wrap"> 
-          <DeviceMain />
+          <NoArguments />
         </main>
       </div>
     </>

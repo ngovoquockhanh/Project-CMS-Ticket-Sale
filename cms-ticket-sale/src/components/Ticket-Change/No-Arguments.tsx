@@ -14,7 +14,7 @@ const NoArgumentsMain = () => {
 
   const dateFormatList = ["DD/MM/YYYY", "DD/MM/YY"];
 
-  const customFormat = (value) => `custom format: ${value.format(dateFormat)}`;
+ 
   return (
     <>
       <section className="NoArgumentsMain">
@@ -36,7 +36,7 @@ const NoArgumentsMain = () => {
           <div className="Checking-container">
             <div className="devicemain-container-table">
               <div className="tbl-control">
-                <table cellPadding="0" cellSpacing="0" border="0">
+                <table >
                   <thead>
                     <tr className="col1">
                       <th className="Checking-col">STT</th>
@@ -60,7 +60,7 @@ const NoArgumentsMain = () => {
                 </table>
               </div>
               <div className="tbl-content-for">
-                <table cellPadding="0" cellSpacing="0" border="0">
+                <table >
                   <tbody>
                     <tr className="col1">
                       <td>1</td>
@@ -322,6 +322,7 @@ const NoArgumentsMain = () => {
                   <DatePicker
                     defaultValue={moment("10/10/2021", dateFormatList[0])}
                     format={dateFormatList}
+                    dropdownClassName="dropdown-class-name-cs"
                   />
                 </Space>
                 <h3 className="until-the-day">Đến ngày</h3>
@@ -330,6 +331,7 @@ const NoArgumentsMain = () => {
                   <DatePicker
                     defaultValue={moment("10/10/2021", dateFormatList[0])}
                     format={dateFormatList}
+                    dropdownClassName="dropdown-class-name-cs"
                   />
                 </Space>
 

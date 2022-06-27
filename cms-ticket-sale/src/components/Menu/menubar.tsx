@@ -37,7 +37,7 @@ const Menubar = () => {
               isActive ? "menubar-main-box active" : "menubar-main-box"
             }
             to="/home"
-            exact="true"
+
           >
             <img src={home} alt="" className="icondashboard" />
             Trang chủ
@@ -48,7 +48,7 @@ const Menubar = () => {
               isActive ? "menubar-main-box active" : "menubar-main-box"
             }
             to="/manager-used"
-            exact="true"
+
           >
             <img src={ticketmanager} alt="" className="icondevice" />
             Quản lý vé
@@ -58,7 +58,7 @@ const Menubar = () => {
               isActive ? "menubar-main-box active" : "menubar-main-box"
             }
             to="/no-arguments"
-            exact="true"
+
           >
             <img src={changeticket} alt="" className="iconservice" />
             Đổi soát vé
@@ -71,7 +71,7 @@ const Menubar = () => {
                 : "menubar-main-box setting"
             }
             to="/manage-role"
-            exact="true"
+
           >
             <img src={iconsetting} alt="" className="iconsetting" />
             Cài đặt
@@ -81,7 +81,7 @@ const Menubar = () => {
                   <NavLink
                     className={({ isActive }) => (isActive ? "active " : "")}
                     to="/manage-role"
-                    exact="true"
+
                   >
                     Quản lý vai trò
                   </NavLink>
@@ -90,7 +90,7 @@ const Menubar = () => {
                   <NavLink
                     className={({ isActive }) => (isActive ? "active " : "")}
                     to="/manage-user"
-                    exact="true"
+
                   >
                     Quản lý tài khoản
                   </NavLink>
@@ -99,7 +99,7 @@ const Menubar = () => {
                   <NavLink
                     className={({ isActive }) => (isActive ? "active " : "")}
                     to="/history"
-                    exact="true"
+          
                   >
                     Nhật ký hoạt động
                   </NavLink>
