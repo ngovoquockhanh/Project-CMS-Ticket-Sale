@@ -84,22 +84,22 @@ const Chart = () => {
   };
 
   const ChangeChart = (id: string) => {
-    const chartngay: any = document.getElementById("ngay");
-    const charttuan: any = document.getElementById("tuan");
-    const checkngay: any = document.getElementById("checkngay");
-    const checktuan: any = document.getElementById("checktuan");
+    const chartngay: any = document.getElementById('ngay')
+    const charttuan: any = document.getElementById('tuan')
+    const checkngay: any = document.getElementById('checkngay')
+    const checktuan: any = document.getElementById('checktuan')
     checkngay.checked = false;
     checktuan.checked = false;
-    if (chartngay.style.display === "none") {
-      chartngay.style.display = "flex";
-      charttuan.style.display = "none";
+    if (chartngay.style.display === 'none') {
+        chartngay.style.display = 'flex'
+        charttuan.style.display = 'none'
     } else {
-      chartngay.style.display = "none";
-      charttuan.style.display = "flex";
+        chartngay.style.display = 'none'
+        charttuan.style.display = 'flex'
     }
-    const checkon: any = document.getElementById(id);
+    const checkon: any = document.getElementById(id)
     checkon.checked = true;
-  };
+}
 
   return (
     <>
@@ -141,18 +141,16 @@ const Chart = () => {
             </div>
             <div className="input-select">
               <div className="input-select-box">
-                <div className="checkbox-round">
-                  <input
-                    id="checkngay"
-                    type="radio"
-                    onChange={() => ChangeChart("checkngay")}
-                  />
-                </div>
-                <p>Theo ngày</p>
+              <div className='checkbox-round'>
+                            <input  name='checkngay' id='checkngay' type="radio" onChange={() => ChangeChart('checkngay')} />
+                        </div>
+                        <p>Theo ngày</p>
+                
               </div>
               <div className="input-select-box">
                 <div className="checkbox-round">
                   <input
+                   name='checktuan'
                     id="checktuan"
                     type="radio"
                     onChange={() => ChangeChart("checktuan")}

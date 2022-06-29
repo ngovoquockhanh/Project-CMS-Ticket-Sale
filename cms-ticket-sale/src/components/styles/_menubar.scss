@@ -100,35 +100,22 @@
     }
     .setting {
       .navigation {
+        width: 105px;
+        height: 26px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 26px;
+        letter-spacing: 0.015em;
+        color: #1E0D03;
+        opacity: 0.6;
+        flex: none;
+        order: 1;
+        margin-top: 32%;
+        flex-grow: 0;
         position: absolute;
-        right: -100%;
-        bottom: 21%;
-        background-color: $white;
-        border-bottom-right-radius: 1.2rem;
-        border-top-right-radius: 1.2rem;
-        width: 100%;
-        max-width: 20rem;
-        opacity: 0;
-        visibility: hidden;
-        transition: opacity 0.2s linear, visibility 0.2s linear;
-        z-index: 2;
-        ul {
-          li {
-            list-style: none;
-            &:hover {
-              background-color: $bg-orange-light;
-            }
-            a {
-              padding: 1.2rem 0 1.2rem 0.6rem;
-              @include title(1.6rem);
-              display: block;
-              &.active {
-                background-color: $orange;
-                color: $white;
-              }
-            }
-          }
-        }
+        margin-left: 26%;
       }
     }
     .setting:hover .navigation {

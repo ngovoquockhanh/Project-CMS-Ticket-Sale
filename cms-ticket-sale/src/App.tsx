@@ -4,9 +4,8 @@ import { Routes, Route } from "react-router-dom";
 import Menu from "./components/Menu/menubar";
 import Home from "./components/views/HomePage";
 import ManagerUsed from "./components/views/Manager-used";
-import Managernotused from "./components/views/Manager-not-used";
-import ManagerExpires from "./components/views/Manager-Expires";
 import NoArguments from "./components/views/No-Arguments";
+import Setting from "./components/views/ListTicketPackage";
 
 function App() {
   return (
@@ -15,10 +14,9 @@ function App() {
         <Routes>
           <Route path="/*" element={<Menu />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/manager-used" element={<ManagerUsed />} />
-          <Route path="/manager-not-used" element={<Managernotused />} />
-          <Route path="/manager-expires" element={<ManagerExpires />} />
+          <Route path="/manager-used" element={<ManagerUsed />} />       
           <Route path="/no-arguments" element={<NoArguments />} />
+          <Route path="/setting" element={<Setting />} />
         </Routes>
       </div>
     </div>

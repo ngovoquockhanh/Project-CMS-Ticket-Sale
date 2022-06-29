@@ -1,19 +1,14 @@
 import loc from "../../assets/images/loc.png";
 import { FiSearch } from "react-icons/fi";
-import moment from "moment";
-import Popup from "reactjs-popup";
+import { useState } from "react";
 import { Pagination } from "antd";
-import { DatePicker, Space } from "antd";
-import { FaCaretRight } from "react-icons/fa";
+import { DatePicker } from "antd";
+import ModalFilter from "../Manager-ticker/ModalFilter";
 const DeviceMain = () => {
-  const { RangePicker } = DatePicker;
-
-  const dateFormat = "YYYY/MM/DD";
-  const weekFormat = "MM/DD";
-  const monthFormat = "YYYY/MM";
-
   const dateFormatList = ["DD/MM/YYYY", "DD/MM/YY"];
-
+  const [openModal, setOpenModal] = useState<boolean>(false);
+  const [openModalChangeTicket, setOpenModalChangeTicket] =
+    useState<boolean>(false);
   
   return (
     <>
@@ -29,72 +24,21 @@ const DeviceMain = () => {
                 </span>
               </div>
             </div>
-            <Popup
-              modal
-              trigger={
-                <button className="btn">
-                  <a className="ticket-filter">Lọc Vé</a>
-                  <img src={loc} alt="" className="loc" />
-                </button>
-              }
-            >
-              <div className="filter">
-                <h3 className="name-ticket">Lọc Vé</h3>
-
-                <Space direction="vertical" size={12} className="date-day">
-                  <h3 className="day-name">Từ Ngày</h3>
-                  <DatePicker
-                    defaultValue={moment("10/10/2021", dateFormatList[0])}
-                    format={dateFormatList}
-                  />
-                </Space>
-                <span>
-                  <FaCaretRight />
-                </span>
-                <h3 className="day-name-1">Đến Ngày</h3>
-                <Space direction="vertical" size={12} className="date-day-1">
-                  <DatePicker
-                    defaultValue={moment("18/10/2021", dateFormatList[0])}
-                    format={dateFormatList}
-                  />
-                </Space>
-                <div>
-                <h3 className="statust">Tình trạng sử dụng</h3>
-                <input type="radio" id="html"className="name-all" name="fav_language" value="HTML"></input>               
-                    <span className="all">Tất cả</span>
-                   <input type="radio" id="html" className="name-all-1" name="fav_language"  value="HTML"></input>
-                    <span className="all-1">Đã sử dụng</span>
-                    <input type="radio" id="html" className="name-all-2" name="fav_language"  value="HTML"></input>
-                    <span className="all-2">Chưa sử dụng</span>
-                    <input type="radio" id="html" className="name-all-3" name="fav_language"  value="HTML"></input>
-                    <span className="all-3">Hết hạn</span>
-       
-                </div>
-              <div>
-              <h3 className="check">Cổng Check - in</h3>
-              <input type="checkbox" id="" className="check-all" />
-               <span className="check-name">Tất cả</span>
-               <input type="checkbox" id="" className="check-all-1" />
-               <span className="check-name-1">Cổng 3</span>
-               <input type="checkbox" id="" className="check-all-2" />
-               <span className="check-name-2">Cổng 1</span>
-               <input type="checkbox" id="" className="check-all-3" />
-               <span className="check-name-3">Cổng 4</span>
-               <input type="checkbox" id="" className="check-all-4" />
-               <span className="check-name-4">Cổng 2</span>
-               <input type="checkbox" id="" className="check-all-5" />
-               <span className="check-name-5">Cổng 5</span>
+            
+            <div className="filter-export">
+              <div
+                className=" btn-4"
+                onClick={() => setOpenModal(true)}
+              >
+                 <img src={loc} alt="" className="ticket-filter-img" />
+                <h3 className="ticket-filter">Lọc Vé</h3>
               </div>
-              <button className="name-filter"><span className="name-filter-1">Lọc</span></button>
+              <div className="btn-5">
+                <h3 className="ticket-filter-1">Xuất file (.csv)</h3>
               </div>
-  
-            </Popup>
-
-            <button className="btn-1">
-              <a className="export-file">Xuất file(.csv)</a>
-            </button>
+            </div>
           </div>
-
+          {openModal && <ModalFilter closeModal={setOpenModal} />}
           <div className="devicemain-container-table">
             <div className="tbl-header">
               <table >

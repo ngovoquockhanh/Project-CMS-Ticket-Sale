@@ -70,41 +70,13 @@ const Menubar = () => {
                 ? "menubar-main-box active setting"
                 : "menubar-main-box setting"
             }
-            to="/manage-role"
+            to="/setting"
 
           >
             <img src={iconsetting} alt="" className="iconsetting" />
             Cài đặt
             <div className="navigation">
-              <ul>
-                <li>
-                  <NavLink
-                    className={({ isActive }) => (isActive ? "active " : "")}
-                    to="/manage-role"
-
-                  >
-                    Quản lý vai trò
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    className={({ isActive }) => (isActive ? "active " : "")}
-                    to="/manage-user"
-
-                  >
-                    Quản lý tài khoản
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    className={({ isActive }) => (isActive ? "active " : "")}
-                    to="/history"
-          
-                  >
-                    Nhật ký hoạt động
-                  </NavLink>
-                </li>
-              </ul>
+              <h3>Gói dịch vụ</h3>
             </div>
           </NavLink>
         </div>

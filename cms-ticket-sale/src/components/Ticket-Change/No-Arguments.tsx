@@ -1,10 +1,7 @@
-import loc from "../../assets/images/loc.png";
 import { FiSearch } from "react-icons/fi";
 import moment from "moment";
-import Popup from "reactjs-popup";
 import { Pagination } from "antd";
 import { DatePicker, Space } from "antd";
-import { FaCaretRight } from "react-icons/fa";
 const NoArgumentsMain = () => {
   const { RangePicker } = DatePicker;
 
@@ -297,6 +294,9 @@ const NoArgumentsMain = () => {
                   </tbody>
                 </table>
               </div>
+              <div className="devicemain-container-pagination">
+            <Pagination defaultCurrent={1} total={100} />
+          </div>
             </div>
           </div>
         </div>

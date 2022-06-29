@@ -91,9 +91,21 @@ input {
   flex-grow: 0;
   margin-left: 23%;
 }
-.loc {
-  margin-top: -33%;
-  margin-left: -21%;
+
+.li-dad {
+  padding: 0.8rem 1.2rem;
+  background: #def7e0;
+  color: #03ac00;
+  border: 1px solid #03ac00;
+  border-radius: 4px;
+  width: 109%;
+}
+.li-tat {
+  padding: 0.8rem 1.2rem;
+  background: #f8ebe8;
+  color: #fd5959;
+  border: 1px solid #fd5959;
+  border-radius: 4px;
 }
 
 .btn-1 {
